@@ -1,8 +1,8 @@
 #include "monty.h"
 
 /**
- * _add - adds the top two elements of the stack.
- * @head: pointer to the stack head
+ * _add - this function adds the top two elements of the stack.
+ * @head: points to the head of stack
  * @counter: the line number
  * Return: void
 */
@@ -33,7 +33,7 @@ void _add(stack_t **head, unsigned int counter)
 }
 
 /**
- * addnode - add node to the head stack
+ * addnode - fucntion that adds node to the head stack
  * @head: head of the stack
  * @n: new alue
  * Return: void
@@ -57,7 +57,7 @@ void addnode(stack_t **head, int n)
 }
 
 /**
- * _push - add node to the stack
+ * _push - this function adds node to the stack
  * @head: stack head
  * @counter: line_number
  * Return: void
@@ -94,7 +94,7 @@ void _push(stack_t **head, unsigned int counter)
 }
 
 /**
- * _pop - prints the top
+ * _pop - function that prints the top
  * @head: stack head
  * @counter: line_number
  * Return: void
@@ -117,10 +117,10 @@ void _pop(stack_t **head, unsigned int counter)
 }
 
 /**
-* _execute - executes the opcode
+* _execute - this fuction executes the opcode
 * @stack: head linked list - stack
 * @counter: line_counter
-* @file: poiner to monty file
+* @file: points to monty file
 * @content: line content
 * Return: void
 */
