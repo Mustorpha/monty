@@ -1,8 +1,8 @@
 #include "monty.h"
 
 /**
- * _div - divides the top two elements of the stack.
- * @head: stack head
+ * _div - this divides the top two elements of the stack.
+ * @head: head of the stack
  * @counter: line_number
  * Return: void
 */
@@ -41,8 +41,8 @@ void _div(stack_t **head, unsigned int counter)
 }
 
 /**
- * _mul - multiplies the top two elements of the stack.
- * @head: stack head
+ * _mul - function that multiplies the top two elements of the stack.
+ * @head: head of stack
  * @counter: line_number
  * Return: void
 */
@@ -73,8 +73,8 @@ void _mul(stack_t **head, unsigned int counter)
 }
 
 /**
-  *_sub- sustration
-  *@head: stack head
+  *_sub- sustration function
+  *@head: head of stack
   *@counter: line_number
   *Return: void
  */
