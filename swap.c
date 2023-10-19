@@ -1,9 +1,9 @@
 #include "monty.h"
 /**
- * _swap - adds the top two elements of the stack.
- * @head: stack head
+ * _swap - it adds the top two elements of the stack.
+ * @head: head of the stack
  * @counter: line_number
- * Return: no return
+ * Return: nothing returned
 */
 void _swap(stack_t **head, unsigned int counter)
 {
